@@ -4,3 +4,21 @@
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
 }
+
+#nav a {
+    margin: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div[data-date] {
+    padding: 40px;
+    
+}
+
+.mese-dinamico {
+    padding: 20px;
+}

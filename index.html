@@ -5,23 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Calendar</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/it.js"></script>
+
+    <script src="main.js" charset="utf-8"></script>
+
+
 </head>
 
 <body>
 
-    <div class="content">
+    <div id="nav">
+        <a href="#" id="prev">
+            precedente
+        </a>
+
+        <a href="#"id="next">
+            successivo
+        </a>
+    </div>
+
+    <h3 class="mese-dinamico">
+
+    </h3>
+    <span class="anno">
+
+    </span>
+    <div class="content flex">
 
     </div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
-    <script src="main.js" charset="utf-8"></script>
 </body>
 
 </html>
